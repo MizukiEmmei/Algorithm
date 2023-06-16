@@ -1,3 +1,4 @@
+//クラスカル法による最小全域木を用いた解法
 #include <algorithm>
 #include <bitset>
 #include <complex>
