@@ -34,7 +34,7 @@
 using namespace std;
 #define rep(i, n) for(int i = 0; i < n; i++)
 
-
+//ABC308 - C
 int main(){
     vector< pair<int,int> > c(10);
     rep(i,10)c[i].first = i;
