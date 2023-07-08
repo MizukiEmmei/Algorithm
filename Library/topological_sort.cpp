@@ -8,7 +8,7 @@ vector<int> Topological_Sort(vector<vector<int>> &graph, vector<int> &deg, int n
             q.push(i);
         }
     }
-    while (que.empty() == false) {
+    while (q.empty() == false) {
         int v = q.front();
         q.pop();
         for(auto c : graph[v]){
